@@ -1,0 +1,99 @@
+:root {
+  --background: #F7F8F2;
+  --surface: #FFFFFF;
+  --ink: #203C32;
+  --muted: #5E675E;
+  --green: #244C3C;
+  --line: #E6E9DF;
+  --soft: #EFF2E9;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--ink);
+  font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 32px 20px 64px;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: baseline;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 24px;
+  color: var(--ink);
+  text-decoration: none;
+  letter-spacing: -0.5px;
+}
+.brand span { color: #6A8952; }
+
+.languages {
+  display: flex;
+  gap: 8px;
+  margin: 20px 0 8px;
+}
+.languages a {
+  min-height: 40px;
+  padding: 8px 14px;
+  border-radius: 12px;
+  background: var(--soft);
+  color: var(--green);
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+article {
+  margin-top: 24px;
+  padding: 24px 22px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+}
+
+h1 {
+  margin: 0 0 6px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: -0.8px;
+}
+h2 {
+  margin: 28px 0 6px;
+  font-size: 19px;
+  line-height: 1.35;
+}
+p, li { margin: 8px 0; }
+ul { padding-left: 22px; }
+.updated { margin: 0 0 18px; color: var(--muted); font-size: 15px; }
+.summary {
+  padding: 14px 16px;
+  border-radius: 16px;
+  background: var(--soft);
+}
+a { color: var(--green); }
+
+.cards { display: grid; gap: 12px; margin-top: 24px; }
+.cards a {
+  display: block;
+  padding: 20px 22px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 600;
+}
+.cards small { display: block; color: var(--muted); font-weight: 400; }
+
+footer { margin-top: 32px; color: var(--muted); font-size: 14px; text-align: center; }
