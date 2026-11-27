@@ -17,7 +17,7 @@
 
   <article id="tr" lang="tr">
     <h1>Gizlilik Politikası</h1>
-    <p class="updated">Son güncelleme: 23 Kasım 2026</p>
+    <p class="updated">Son güncelleme: 27 Kasım 2026</p>
 
     <p class="summary"><strong>Kısaca:</strong> dozHapp bir hesap istemez ve girdiğiniz bilgileri hiçbir sunucuya göndermez. İlaçlarınız, hatırlatma saatleriniz ve geçmişiniz yalnızca telefonunuzda saklanır. Biz bu bilgileri görmeyiz. Premium aboneliği doğrulamak için yalnızca anonim bir kimlik ve satın alma bilgisi abonelik hizmetimize gider (bkz. madde 5). Uygulama çökerse, girdiğiniz bilgiler ayıklanmış teknik bir hata raporu gönderilir; bunu Ayarlar’dan kapatabilirsiniz (bkz. madde 6).</p>
 
@@ -30,7 +30,8 @@
       <li>İlaç, vitamin ve randevu adları, doz miktarları ve notlarınız</li>
       <li>Hatırlatma günleri, saatleri, başlangıç ve bitiş tarihleri</li>
       <li>Hangi dozları aldığınız, atladığınız ya da almadığınız</li>
-      <li>Uygulama ayarlarınız (hatırlatma süresi, dil gibi)</li>
+      <li>Uygulama ayarlarınız (hatırlatma süresi, dil, uygulamayı kendiniz için mi yoksa bir yakınınız için mi kurduğunuz gibi)</li>
+      <li>Bir yakınınız için PIN kilidi kurduysanız PIN’in kendisi saklanmaz; yalnızca ondan türetilen ve geri çevrilemeyen bir değer (tuzlanmış SHA-256 özeti) telefonda tutulur.</li>
     </ul>
     <p>Bu bilgiler sağlığınızla ilgili olabilir. Bu yüzden onları telefonunuzdan dışarı çıkarmayacak şekilde tasarladık: <strong>yalnızca cihazınızda</strong> saklanırlar. Bize ya da başka bir şirkete gönderilmezler. Kendi sunucumuz yoktur.</p>
 
@@ -38,7 +39,7 @@
     <p>Hatırlatmalar telefonunuzun işletim sistemi tarafından, telefonunuzun içinde planlanan yerel bildirimlerdir. İnternet üzerinden gönderilmezler. Bildirimde ilacın adı ve saati görünür. Telefonunuzun ayarlarına bağlı olarak bu bilgi kilit ekranında da görünebilir. Bunu telefonunuzun bildirim ayarlarından değiştirebilirsiniz.</p>
 
     <h2>4. Yedekleme</h2>
-    <p>“Yedeği Dışa Aktar” özelliğini kullandığınızda, kayıtlarınızı içeren bir dosya oluşturulur. Bu dosyada ilaç adlarınız ve notlarınız da bulunur. Dosyayı nereye kaydedeceğinizi ya da kiminle paylaşacağınızı siz seçersiniz. Seçtiğiniz yer (örneğin bir bulut depolama hizmeti ya da e-posta) o hizmetin kendi gizlilik kurallarına tabidir. Dosyayı güvendiğiniz bir yerde saklayın.</p>
+    <p>“Yedeği Dışa Aktar” özelliğini kullandığınızda, kayıtlarınızı içeren bir dosya oluşturulur. Bu dosyada ilaç adlarınız ve notlarınız da bulunur; geçmişini sakladığınız silinmiş planlar da dahildir. Dosyayı nereye kaydedeceğinizi ya da kiminle paylaşacağınızı siz seçersiniz. Seçtiğiniz yer (örneğin bir bulut depolama hizmeti ya da e-posta) o hizmetin kendi gizlilik kurallarına tabidir. Dosyayı güvendiğiniz bir yerde saklayın.</p>
     <p>Android’de uygulama verileri, telefonun otomatik yedeğine dahil edilmez. iPhone’da ise telefonunuzun kendi cihaz yedeği (iCloud ya da bilgisayar yedeği) uygulama verilerini de içerebilir. Bu yedekler Apple hesabınızın kontrolündedir. Biz onlara erişemeyiz.</p>
 
     <h2>5. Satın alımlar</h2>
@@ -46,7 +47,7 @@
     <p>Aboneliğinizin aktif olup olmadığını doğrulamak için RevenueCat (RevenueCat, Inc., ABD) adlı abonelik yönetim hizmetini kullanırız. Uygulama ilk açıldığında sizin için rastgele, anonim bir kimlik oluşturulur. RevenueCat’e yalnızca bu kimlik, satın alma bilgileriniz (hangi aboneliği ne zaman aldığınız, yenilendiği ya da iptal edildiği), cihaz ve işletim sistemi türü, uygulama sürümü ve ülke/para birimi gibi teknik bilgiler gider. <strong>İlaçlarınız, notlarınız ve doz geçmişiniz RevenueCat’e gitmez.</strong> Adınızı, e-postanızı ya da telefon numaranızı da istemeyiz. Bu bilgiler yalnızca aboneliğinizi doğrulamak ve satın alımlarınızı geri yüklemek için kullanılır; reklam ya da izleme için kullanılmaz. RevenueCat bu bilgileri bizim adımıza, ABD’deki sunucularda işler. Ayrıntılar için <a href="https://www.revenuecat.com/privacy">RevenueCat gizlilik politikası</a>’na bakabilirsiniz.</p>
 
     <h2>6. Hata raporları</h2>
-    <p>Uygulama çökerse ya da hatırlatmalar kurulamazsa, sorunu bulup düzeltebilmemiz için Sentry (Functional Software, Inc.) adlı hata raporlama hizmetine teknik bir rapor gönderilir. Raporda cihaz modeli, işletim sistemi ve uygulama sürümü, dil ve saat dilimi, hatanın türü ve kodda nerede olduğu, ayrıca uygulamanın kaç oturumunun hatasız geçtiğini saymak için kullanılan rastgele bir kurulum kimliği yer alır. <strong>İlaç adlarınız, notlarınız ve doz geçmişiniz raporlara girmez:</strong> uygulama bir raporu göndermeden önce bunları ve cihaz adınızı ayıklar; ekran görüntüsü ya da ekran kaydı alınmaz. Adınızı, e-postanızı ya da IP adresinizi saklamayız. Raporlar AB’deki (Almanya) sunucularda tutulur, yalnızca hataları düzeltmek için kullanılır ve en fazla 90 gün sonra silinir. Hata raporlarını uygulamanın Ayarlar ekranındaki “Hata raporlarını gönder” anahtarıyla istediğiniz zaman kapatabilirsiniz. Ayrıntılar için <a href="https://sentry.io/privacy/">Sentry gizlilik politikası</a>’na bakabilirsiniz.</p>
+    <p>Uygulama çökerse ya da hatırlatmalar kurulamazsa, sorunu bulup düzeltebilmemiz için Sentry (Functional Software, Inc.) adlı hata raporlama hizmetine teknik bir rapor gönderilir. Raporda cihaz modeli, işletim sistemi ve uygulama sürümü, dil ve saat dilimi, hatanın türü ve kodda nerede olduğu, ayrıca uygulamanın kaç oturumunun hatasız geçtiğini saymak için kullanılan rastgele bir kurulum kimliği yer alır. <strong>İlaç adlarınız, notlarınız ve doz geçmişiniz raporlara girmez:</strong> uygulama bir raporu göndermeden önce bunları ve cihaz adınızı ayıklar; ekran görüntüsü ya da ekran kaydı alınmaz. Adınızı, e-postanızı ya da IP adresinizi saklamayız. Raporlar AB’deki (Almanya) sunucularda tutulur, yalnızca hataları düzeltmek için kullanılır ve en fazla 90 gün sonra silinir. Hata raporlarını uygulamada Ayarlar → Hata raporları bölümündeki “Hata raporlarını gönder” anahtarıyla istediğiniz zaman kapatabilirsiniz. Ayrıntılar için <a href="https://sentry.io/privacy/">Sentry gizlilik politikası</a>’na bakabilirsiniz.</p>
 
     <h2>7. Toplamadığımız şeyler</h2>
     <ul>
@@ -57,7 +58,7 @@
     </ul>
 
     <h2>8. Bilgilerinizi silmek</h2>
-    <p>Bilgileriniz yalnızca telefonunuzda olduğu için onları tamamen siz kontrol edersiniz. Tek bir planı uygulamadaki “Planlarım” ekranından silebilirsiniz. Uygulamayı kaldırdığınızda telefondaki tüm kayıtları da silinir. Daha önce dışa aktardığınız yedek dosyaları ise siz silene kadar kaydettiğiniz yerde kalır.</p>
+    <p>Bilgileriniz yalnızca telefonunuzda olduğu için onları tamamen siz kontrol edersiniz. Bir planı uygulamadaki “Planlarım” ekranından silerken iki seçeneğiniz vardır: “Sil, geçmiş kalsın” seçerseniz plan kaldırılır ve hatırlatmaları durur, ama o planın adı ve geçmiş alınma kayıtları takvimde ve raporlarda kullanılmak üzere telefonunuzda kalır. “Geçmişiyle birlikte sil” seçerseniz plan ve tüm kayıtları silinir. Sakladığınız geçmişi daha sonra “Planlarım → Silinen planlar” bölümünden, plan plan kalıcı olarak silebilirsiniz. Uygulamayı kaldırdığınızda telefondaki tüm kayıtları da silinir. Daha önce dışa aktardığınız yedek dosyaları ise siz silene kadar kaydettiğiniz yerde kalır.</p>
 
     <h2>9. Haklarınız</h2>
     <p>Kişisel verilerinize ilişkin yasal haklarınız (Türkiye’de 6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamındaki haklar dahil) saklıdır. Uygulamaya girdiğiniz bilgiler bizde bulunmadığı için onlara erişme, düzeltme ya da silme işlemlerini uygulama içinden kendiniz yapabilirsiniz. Satın alma kayıtlarınızın (madde 5) ya da hata raporlarının (madde 6) silinmesini veya bunlar hakkında bilgi almak isterseniz bize yazın; talebinizi RevenueCat ya da Sentry aracılığıyla yerine getiririz. Sorularınız için de bize yazabilirsiniz.</p>
@@ -71,7 +72,7 @@
 
   <article id="en" lang="en">
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: 23 November 2026</p>
+    <p class="updated">Last updated: 27 November 2026</p>
 
     <p class="summary"><strong>In short:</strong> dozHapp needs no account and never sends what you enter to any server. Your medications, reminder times and history are stored only on your phone. We never see them. To verify a Premium subscription, only an anonymous ID and purchase information go to our subscription service (see section 5). If the app crashes, a technical error report with what you entered removed is sent; you can turn this off in Settings (see section 6).</p>
 
@@ -84,7 +85,8 @@
       <li>Names of medications, vitamins and appointments, dose amounts and your notes</li>
       <li>Reminder days and times, start and end dates</li>
       <li>Which doses you took, skipped or did not take</li>
-      <li>Your app settings (such as reminder timing and language)</li>
+      <li>Your app settings (such as reminder timing, language, and whether you set the app up for yourself or for a loved one)</li>
+      <li>If you set up a PIN lock for a loved one, the PIN itself is not stored; only a value derived from it that cannot be turned back into the PIN (a salted SHA-256 hash) is kept on the phone.</li>
     </ul>
     <p>This information can relate to your health. That is why the app is built so it never leaves your phone: it is stored <strong>only on your device</strong>. It is not sent to us or to any other company. We have no servers of our own.</p>
 
@@ -92,7 +94,7 @@
     <p>Reminders are local notifications that your phone’s operating system schedules on the phone itself. They are not sent over the internet. A notification shows the medication’s name and time. Depending on your phone’s settings, this may also appear on the lock screen. You can change this in your phone’s notification settings.</p>
 
     <h2>4. Backups</h2>
-    <p>When you use “Export Backup”, a file containing your records is created. It includes your medication names and notes. You choose where to save the file or who to share it with. The place you choose (for example a cloud storage service or email) is subject to that service’s own privacy rules. Keep the file somewhere you trust.</p>
+    <p>When you use “Export Backup”, a file containing your records is created. It includes your medication names and notes, including deleted plans whose history you kept. You choose where to save the file or who to share it with. The place you choose (for example a cloud storage service or email) is subject to that service’s own privacy rules. Keep the file somewhere you trust.</p>
     <p>On Android, app data is excluded from the phone’s automatic backup. On iPhone, your phone’s own device backup (iCloud or computer backup) may include app data. Those backups are controlled by your Apple account; we cannot access them.</p>
 
     <h2>5. Purchases</h2>
@@ -100,7 +102,7 @@
     <p>To check whether your subscription is active, we use a subscription management service called RevenueCat (RevenueCat, Inc., USA). When the app first opens, a random, anonymous ID is created for you. Only this ID, your purchase information (which subscription you bought and when, and whether it renewed or was cancelled), and technical details such as device and operating system type, app version and country/currency are sent to RevenueCat. <strong>Your medications, notes and dose history are never sent to RevenueCat.</strong> We do not ask for your name, email or phone number. This information is used only to verify your subscription and restore your purchases, never for ads or tracking. RevenueCat processes it on our behalf on servers in the USA. See the <a href="https://www.revenuecat.com/privacy">RevenueCat privacy policy</a> for details.</p>
 
     <h2>6. Error reports</h2>
-    <p>If the app crashes or reminders cannot be set up, a technical report is sent to an error reporting service called Sentry (Functional Software, Inc.) so we can find and fix the problem. A report holds the device model, the operating system and app version, language and time zone, the type of error and where in the code it happened, and a random installation ID used to count how many app sessions ran without errors. <strong>Your medication names, notes and dose history never enter a report:</strong> the app removes them, and your device name, before a report is sent, and it takes no screenshots or screen recordings. We do not store your name, email or IP address. Reports are kept on servers in the EU (Germany), used only to fix errors, and deleted after at most 90 days. You can turn error reports off at any time with the “Send error reports” switch in the app’s Settings. See the <a href="https://sentry.io/privacy/">Sentry privacy policy</a> for details.</p>
+    <p>If the app crashes or reminders cannot be set up, a technical report is sent to an error reporting service called Sentry (Functional Software, Inc.) so we can find and fix the problem. A report holds the device model, the operating system and app version, language and time zone, the type of error and where in the code it happened, and a random installation ID used to count how many app sessions ran without errors. <strong>Your medication names, notes and dose history never enter a report:</strong> the app removes them, and your device name, before a report is sent, and it takes no screenshots or screen recordings. We do not store your name, email or IP address. Reports are kept on servers in the EU (Germany), used only to fix errors, and deleted after at most 90 days. You can turn error reports off at any time with the “Send error reports” switch under Settings → Error reports in the app. See the <a href="https://sentry.io/privacy/">Sentry privacy policy</a> for details.</p>
 
     <h2>7. What we do not collect</h2>
     <ul>
@@ -111,7 +113,7 @@
     </ul>
 
     <h2>8. Deleting your information</h2>
-    <p>Because your information is only on your phone, you are fully in control of it. You can delete a single plan from the “My Plans” screen. Removing the app deletes all of its records from the phone. Backup files you exported stay where you saved them until you delete them.</p>
+    <p>Because your information is only on your phone, you are fully in control of it. When you delete a plan on the “My Plans” screen, you have two choices: with “Delete, keep history” the plan is removed and its reminders stop, but its name and past dose records stay on your phone for the calendar and reports. With “Delete with history” the plan and all of its records are deleted. You can later delete kept history for good, plan by plan, under “My Plans → Deleted plans”. Removing the app deletes all of its records from the phone. Backup files you exported stay where you saved them until you delete them.</p>
 
     <h2>9. Your rights</h2>
     <p>Your legal rights over your personal data, including those under Türkiye’s Personal Data Protection Law No. 6698 (KVKK), are reserved. Since we do not hold the information you enter, you can access, correct or delete it yourself in the app. To ask about or request deletion of your purchase records (section 5) or error reports (section 6), write to us and we will handle it through RevenueCat or Sentry. You are also welcome to write to us with any other question.</p>
